@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{DA88A9E5-E4BB-BE11-2A6E-269FE94955F3}|">
+  <MonoDevelop.Ide.ItemProperties.AltTester.AltTesterUnitySDK PreferredExecutionTarget="3691cf71-6dc0-44bd-b1a7-7d6742abf3c4" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Editor/BuildScript.cs">
+    <Files>
+      <File FileName="Assets/Editor/BuildScript.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="2048Practice" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Editor" expanded="True">
+                <Node name="BuildScript.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Unity" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
