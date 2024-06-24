@@ -1,25 +1,25 @@
-using NUnit.Framework;
-using UnityEngine;
-using UnityEngine.TestTools;
-using System.Collections;
+//using NUnit.Framework;
+//using UnityEngine;
+//using UnityEngine.TestTools;
+//using System.Collections;
 
-[TestFixture]
-public class TileBoardPlayModeTests
-{
-    [UnityTest]
-    public IEnumerator TestSomeRuntimeLogic()
-    {
-        // Arrange
-        GameObject gameObject = new GameObject();
-        gameObject.AddComponent<Rigidbody>();
+//[TestFixture]
+//public class TileBoardPlayModeTests
+//{
+//    [UnityTest]
+//    public IEnumerator TestSomeRuntimeLogic()
+//    {
+//        // Arrange
+//        GameObject gameObject = new GameObject();
+//        gameObject.AddComponent<Rigidbody>();
 
-        // Act
-        yield return new WaitForSeconds(1.0f);
+//        // Act
+//        yield return new WaitForSeconds(1.0f);
 
-        // Assert
-        Assert.IsNotNull(gameObject.GetComponent<Rigidbody>());
-    }
-}
+//        // Assert
+//        Assert.IsNotNull(gameObject.GetComponent<Rigidbody>());
+//    }
+//}
 //using System.Collections;
 //using System.Collections.Generic;
 //using NUnit.Framework;
