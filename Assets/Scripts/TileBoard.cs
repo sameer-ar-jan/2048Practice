@@ -39,31 +39,63 @@ public class TileBoard : MonoBehaviour
         }
         tiles.Clear();
     }
+    //private void Update()
+    //{
+    //    if (!waiting)
+    //    {
+    //        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
+    //        {
+    //            MoveTiles(Vector2Int.up, 0, 1, 1, 1);
+    //        }
+    //        else if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
+    //        {
+    //            MoveTiles(Vector2Int.down, 0, 1, grid.height - 2, -1);
+    //        }
+    //        else if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
+    //        {
+    //            MoveTiles(Vector2Int.left, 1, 1, 0, 1);
+    //        }
+    //        else if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
+    //        {
+    //            MoveTiles(Vector2Int.right, grid.width - 2, -1, 0, 1);
+    //        }
+    //    }
+        
+    //}
     private void Update()
     {
+        Debug.Log("Update called");
         if (!waiting)
         {
+            Debug.Log("!waiting");
             if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
             {
+                Debug.Log("Up arrow pressed");
                 MoveTiles(Vector2Int.up, 0, 1, 1, 1);
             }
             else if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
             {
+                Debug.Log("Down arrow pressed");
                 MoveTiles(Vector2Int.down, 0, 1, grid.height - 2, -1);
             }
             else if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
             {
+                Debug.Log("Left arrow pressed");
                 MoveTiles(Vector2Int.left, 1, 1, 0, 1);
             }
             else if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
             {
+                Debug.Log("Right arrow pressed");
                 MoveTiles(Vector2Int.right, grid.width - 2, -1, 0, 1);
             }
         }
-        
     }
+
     private void MoveTiles(Vector2Int direction, int startX, int incrementX, int startY, int incrementY)
     {
+
+        Debug.Log($"MoveTiles called with direction: {direction}, startX: {startX}, incrementX: {incrementX}, startY: {startY}, incrementY: {incrementY}");
+        // Your existing tile movement logic here
 
         bool changed = false;
         for (int x = startX; x>=0 && x < grid.width; x+=incrementX)
@@ -191,5 +223,25 @@ public class TileBoard : MonoBehaviour
             }
         }
         return true;  
+    }
+
+    public void MoveTilesUp()
+    {
+        MoveTiles(Vector2Int.up, 0, 1, 1, 1);
+    }
+
+    public void MoveTilesDown()
+    {
+        MoveTiles(Vector2Int.down, 0, 1, grid.height - 2, -1);
+    }
+
+    public void MoveTilesLeft()
+    {
+        MoveTiles(Vector2Int.left, 1, 1, 0, 1);
+    }
+
+    public void MoveTilesRight()
+    {
+        MoveTiles(Vector2Int.right, grid.width - 2, -1, 0, 1);
     }
 }

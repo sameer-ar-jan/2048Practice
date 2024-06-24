@@ -15,6 +15,7 @@ public class Tile : MonoBehaviour
 
     private void Awake()
     {
+        gameObject.tag = "TileTag";
         background = GetComponent<Image>();
         text = GetComponentInChildren<TextMeshProUGUI>();
     }
@@ -30,13 +31,15 @@ public class Tile : MonoBehaviour
     }
     public void Spawn(TileCell cell)
     {
-        if(this.cell != null)
+        gameObject.tag = "TileTag";
+        if (this.cell != null)
         {
             this.cell.tile = null;
         }
-
+        
         this.cell = cell;
         this.cell.tile = this;
+        
 
         transform.position = cell.transform.position;
     }
