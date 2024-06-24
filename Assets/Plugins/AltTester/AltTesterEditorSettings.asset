@@ -239,7 +239,7 @@ MonoBehaviour:
     _buildIndex: 0
   platform: 2
   StandaloneTarget: 2
-  RanInEditor: 1
+  RanInEditor: 0
   ScenePathDisplayed: 0
   ShowPopUp: 1
   BuildLocationPath: 
