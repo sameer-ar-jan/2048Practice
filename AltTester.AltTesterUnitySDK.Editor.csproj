@@ -60,21 +60,21 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/AltTester/Editor/Scripts/AltTestRunner.cs" />
-    <Compile Include="Assets/AltTester/Editor/Scripts/AltTesterEditorWindow.cs" />
-    <Compile Include="Assets/AltTester/Editor/Scripts/AltBuilder.cs" />
-    <Compile Include="Assets/AltTester/Editor/Scripts/AltTestRunListener.cs" />
-    <Compile Include="Assets/AltTester/Editor/Scripts/AltMyTest.cs" />
-    <Compile Include="Assets/AltTester/Editor/Logging/EditorLogManager.cs" />
-    <Compile Include="Assets/AltTester/Editor/Scripts/AltPlatform.cs" />
-    <Compile Include="Assets/AltTester/Editor/Scripts/AltProxyFinderPostProcess.cs" />
-    <Compile Include="Assets/AltTester/Editor/Scripts/AltEditorConfiguration.cs" />
-    <Compile Include="Assets/AltTester/Editor/Scripts/AltMyScenes.cs" />
-    <Compile Include="Assets/AltTester/Editor/MyFirstTest.cs" />
+    <Compile Include="Assets/Scripts/Editor/MyFirstTest.cs" />
+    <Compile Include="Assets/Scripts/Editor/Scripts/AltTestRunner.cs" />
+    <Compile Include="Assets/Scripts/Editor/Scripts/AltProxyFinderPostProcess.cs" />
+    <Compile Include="Assets/Scripts/Editor/Scripts/AltTestRunListener.cs" />
+    <Compile Include="Assets/Scripts/Editor/Scripts/AltBuilder.cs" />
+    <Compile Include="Assets/Scripts/Editor/Scripts/AltMyScenes.cs" />
+    <Compile Include="Assets/Scripts/Editor/Scripts/AltPlatform.cs" />
+    <Compile Include="Assets/Scripts/Editor/Scripts/AltTesterEditorWindow.cs" />
+    <Compile Include="Assets/Scripts/Editor/Scripts/AltEditorConfiguration.cs" />
+    <Compile Include="Assets/Scripts/Editor/Logging/EditorLogManager.cs" />
+    <Compile Include="Assets/Scripts/Editor/Scripts/AltMyTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets/AltTester/Editor/DefaultTestExample.txt" />
-    <None Include="Assets/AltTester/Editor/AltTester.AltTesterUnitySDK.Editor.asmdef" />
+    <None Include="Assets/Scripts/Editor/DefaultTestExample.txt" />
+    <None Include="Assets/Scripts/Editor/AltTester.AltTesterUnitySDK.Editor.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

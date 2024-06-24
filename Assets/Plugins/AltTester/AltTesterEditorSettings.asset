@@ -66,13 +66,13 @@ MonoBehaviour:
     _isSuite: 1
     _type: NUnit.Framework.Internal.TestAssembly
     _parentName: 
-    _testCaseCount: 4
+    _testCaseCount: 5
     _foldOut: 1
     _testResultMessage: 
     _testStackTrace: 
     _testDuration: 0
     path: 
-    _testSelectedCount: 4
+    _testSelectedCount: 5
   - _selected: 1
     _testName: TileMovementAltUnityTest
     _testAssembly: AltTester.AltTesterUnitySDK.Editor
@@ -80,13 +80,27 @@ MonoBehaviour:
     _isSuite: 1
     _type: NUnit.Framework.Internal.TestFixture
     _parentName: /Users/rodeorack/Documents/GitHub/2048Practice/Library/ScriptAssemblies/AltTester.AltTesterUnitySDK.Editor.dll
-    _testCaseCount: 4
+    _testCaseCount: 5
     _foldOut: 1
     _testResultMessage: 
     _testStackTrace: 
     _testDuration: 0
     path: 
-    _testSelectedCount: 4
+    _testSelectedCount: 5
+  - _selected: 1
+    _testName: TileMovementAltUnityTest.TestingPlayBtn
+    _testAssembly: AltTester.AltTesterUnitySDK.Editor
+    _status: 1
+    _isSuite: 0
+    _type: NUnit.Framework.Internal.TestMethod
+    _parentName: TileMovementAltUnityTest
+    _testCaseCount: 1
+    _foldOut: 1
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 1.5380158
+    path: 
+    _testSelectedCount: 0
   - _selected: 1
     _testName: TileMovementAltUnityTest.TestMoveTilesDown
     _testAssembly: AltTester.AltTesterUnitySDK.Editor
@@ -98,7 +112,7 @@ MonoBehaviour:
     _foldOut: 1
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 1.2514555
+    _testDuration: 2.4763202
     path: 
     _testSelectedCount: 0
   - _selected: 1
@@ -112,7 +126,7 @@ MonoBehaviour:
     _foldOut: 1
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 1.2509374
+    _testDuration: 1.4495881
     path: 
     _testSelectedCount: 0
   - _selected: 1
@@ -126,7 +140,7 @@ MonoBehaviour:
     _foldOut: 1
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 1.2554294
+    _testDuration: 1.6467342
     path: 
     _testSelectedCount: 0
   - _selected: 1
@@ -140,78 +154,8 @@ MonoBehaviour:
     _foldOut: 1
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 1.2397603
+    _testDuration: 1.5474561
     path: 
-    _testSelectedCount: 0
-  - _selected: 0
-    _testName: /Users/rodeorack/Documents/GitHub/2048Practice/Library/ScriptAssemblies/Tests.dll
-    _testAssembly: Tests
-    _status: 0
-    _isSuite: 1
-    _type: NUnit.Framework.Internal.TestAssembly
-    _parentName: 
-    _testCaseCount: 2
-    _foldOut: 0
-    _testResultMessage: 
-    _testStackTrace: 
-    _testDuration: 0
-    path: 
-    _testSelectedCount: 0
-  - _selected: 0
-    _testName: TileBoardEditModeTests
-    _testAssembly: Tests
-    _status: 0
-    _isSuite: 1
-    _type: NUnit.Framework.Internal.TestFixture
-    _parentName: /Users/rodeorack/Documents/GitHub/2048Practice/Library/ScriptAssemblies/Tests.dll
-    _testCaseCount: 1
-    _foldOut: 0
-    _testResultMessage: 
-    _testStackTrace: 
-    _testDuration: 0
-    path: 
-    _testSelectedCount: 1
-  - _selected: 0
-    _testName: TileBoardEditModeTests.TestSomeEditorLogic
-    _testAssembly: Tests
-    _status: 0
-    _isSuite: 0
-    _type: NUnit.Framework.Internal.TestMethod
-    _parentName: TileBoardEditModeTests
-    _testCaseCount: 1
-    _foldOut: 0
-    _testResultMessage: 
-    _testStackTrace: 
-    _testDuration: 0
-    path: Assets/Tests/Editor/TileBoardEditModeTests.cs
-    _testSelectedCount: 0
-  - _selected: 0
-    _testName: TileBoardPlayModeTests
-    _testAssembly: Tests
-    _status: 0
-    _isSuite: 1
-    _type: NUnit.Framework.Internal.TestFixture
-    _parentName: /Users/rodeorack/Documents/GitHub/2048Practice/Library/ScriptAssemblies/Tests.dll
-    _testCaseCount: 1
-    _foldOut: 0
-    _testResultMessage: 
-    _testStackTrace: 
-    _testDuration: 0
-    path: 
-    _testSelectedCount: 1
-  - _selected: 0
-    _testName: TileBoardPlayModeTests.TestSomeRuntimeLogic
-    _testAssembly: Tests
-    _status: 0
-    _isSuite: 0
-    _type: NUnit.Framework.Internal.TestMethod
-    _parentName: TileBoardPlayModeTests
-    _testCaseCount: 1
-    _foldOut: 0
-    _testResultMessage: 
-    _testStackTrace: 
-    _testDuration: 0
-    path: Assets/Tests/PlayMode/TileBoardPlayModeTests.cs
     _testSelectedCount: 0
   - _selected: 1
     _testName: /Users/rodeorack/Documents/GitHub/2048Practice/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
@@ -229,10 +173,10 @@ MonoBehaviour:
     _testSelectedCount: 0
   Scenes:
   - _toBeBuilt: 1
-    _path: Assets/Scenes/2048.unity
+    _path: Assets/Scenes/MainMenu.unity
     _buildIndex: 0
   - _toBeBuilt: 1
-    _path: Assets/Scenes/MainMenu.unity
+    _path: Assets/Scenes/2048.unity
     _buildIndex: 1
   - _toBeBuilt: 0
     _path: Assets/InitTestScene638526025346865100.unity

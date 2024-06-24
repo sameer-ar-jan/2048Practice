@@ -60,13 +60,13 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/SceneManagerScript.cs" />
     <Compile Include="Assets/Scripts/Tile.cs" />
     <Compile Include="Assets/Scripts/TileCell.cs" />
     <Compile Include="Assets/Scripts/GameManager.cs" />
     <Compile Include="Assets/Scripts/TileBoard.cs" />
     <Compile Include="Assets/Editor/BuildScript.cs" />
     <Compile Include="Assets/Scripts/TileGrid.cs" />
-    <Compile Include="Assets/Scripts/SceneManagerScript.cs" />
     <Compile Include="Assets/Scripts/TileRow.cs" />
     <Compile Include="Assets/Scripts/TileState.cs" />
   </ItemGroup>
