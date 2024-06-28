@@ -114,8 +114,8 @@
     <Compile Include="Assets/AltTester/Runtime/AltDriver/Commands/ObjectCommands/AltClickElement.cs" />
     <Compile Include="Assets/AltTester/Runtime/AltDriver/Commands/InputActions/AltBeginTouch.cs" />
     <Compile Include="Assets/AltTester/Runtime/AltDriver/Commands/InputActions/AltTapCoordinates.cs" />
-    <Compile Include="Assets/AltTester/Runtime/AltDriver/Commands/ObjectCommands/AltPointerUpFromObject.cs" />
     <Compile Include="Assets/AltTester/Runtime/AltDriver/Commands/UnityCommands/AltDeleteKeyPlayerPref.cs" />
+    <Compile Include="Assets/AltTester/Runtime/AltDriver/Commands/ObjectCommands/AltPointerUpFromObject.cs" />
     <Compile Include="Assets/AltTester/Runtime/AltDriver/Communication/GetConnectedAppDriver.cs" />
     <Compile Include="Assets/AltTester/Runtime/AltDriver/Commands/AltCommands/AltResetInput.cs" />
     <Compile Include="Assets/AltTester/Runtime/AltDriver/Commands/ObjectCommands/AltSetText.cs" />

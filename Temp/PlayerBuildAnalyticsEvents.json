@@ -3,13 +3,12 @@
     {
       "type": "playerBuildTimingData",
       "msg": {
-        "build_event_id": "04748fe53bed643c09f1dabf821befa4",
-        "build_player": 52936,
-        "preprocess_player": 164,
-        "produce_player_script_assemblies": 3905,
-        "build_scripts_dlls": 1733,
-        "writing_asset_files": 197,
-        "postprocess_built_player": 38892,
+        "build_event_id": "368a68dd298504b0ba1156ffa26d9a93",
+        "build_player": 23843,
+        "preprocess_player": 163,
+        "produce_player_script_assemblies": 2866,
+        "build_scripts_dlls": 850,
+        "postprocess_built_player": 12029,
         "node_summary_table": []
       },
       "version": 1

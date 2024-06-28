@@ -3,6 +3,9 @@ ScriptsOnlyBuild:
     AltTester.AltTesterUnitySDK.Editor.dll:
     - AltTester.AltTesterUnitySDK.Editor.AltEditorConfiguration
     - AltTester.AltTesterUnitySDK.Editor.AltTesterEditorWindow
+    SciptsAssembly.dll:
+    - BuildScript
+    - SceneManagerScript
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
@@ -83,7 +86,10 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.SpriteState
-  methodsToPreserve: []
+  methodsToPreserve:
+  - assembly: SciptsAssembly
+    fullTypeName: SceneManagerScript
+    methodName: LoadScenes
   sceneClasses:
     Assets/Scenes/MainMenu.unity:
     - Class: 1
@@ -153,6 +159,12 @@ ScriptsOnlyBuild:
     assemblyName: AltTester.AltTesterUnitySDK
     namespaceName: AltTester.AltTesterUnitySDK.UI
     className: AltDialog
+  - hash:
+      serializedVersion: 2
+      Hash: 9e053fba83037d192aff425374055dd2
+    assemblyName: SciptsAssembly
+    namespaceName: 
+    className: BuildScript
   - hash:
       serializedVersion: 2
       Hash: dd9dda1dfd39e605c49e72003342ef5d
@@ -1179,6 +1191,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 09e7a357b8a5152a119c317be8c3df25
+    assemblyName: SciptsAssembly
+    namespaceName: 
+    className: SceneManagerScript
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainMenu.unity

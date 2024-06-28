@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     public CanvasGroup gameOver;
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI HighScoreText;
-    private int score;
+    public int score;
 
     private void Start()
     {
@@ -80,5 +80,12 @@ public class GameManager : MonoBehaviour
     private int LoadHighScore()
     {
         return PlayerPrefs.GetInt("highScore", 0);
+    }
+    public void SetInitialState(int initialScore, float gameOverAlpha, bool gameOverInteractable)
+    {
+        SetScore(initialScore);
+        HighScoreText.text = LoadHighScore().ToString();
+        gameOver.alpha = gameOverAlpha;
+        gameOver.interactable = gameOverInteractable;
     }
 }
