@@ -67,6 +67,7 @@
     <Compile Include="Assets/Scripts/TileBoard.cs" />
     <Compile Include="Assets/Editor/BuildScript.cs" />
     <Compile Include="Assets/Scripts/TileGrid.cs" />
+    <Compile Include="Assets/Editor/TestRunner.cs" />
     <Compile Include="Assets/Scripts/TileRow.cs" />
     <Compile Include="Assets/Scripts/TileState.cs" />
   </ItemGroup>
