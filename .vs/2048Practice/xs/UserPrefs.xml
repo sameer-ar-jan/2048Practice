@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{DA88A9E5-E4BB-BE11-2A6E-269FE94955F3}|">
   <MonoDevelop.Ide.ItemProperties.AltTester.AltTesterUnitySDK PreferredExecutionTarget="feea3648-9004-4312-8910-3e64fdfe4bba" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Tests/PlayMode/TileBoardPlayModeTests.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Editor/TestRunner.cs">
     <Files>
       <File FileName="Assets/Editor/BuildScript.cs" Line="13" Column="52" />
       <File FileName="Assets/Scripts/TileBoard.cs" />
@@ -11,7 +11,8 @@
       <File FileName="Assets/Scripts/Tile.cs" />
       <File FileName="Assets/AltTester/Runtime/AltDriver/Logging/UnityTarget.cs" />
       <File FileName="Assets/Tests/Editor/TileBoardEditModeTests.cs" />
-      <File FileName="Assets/Tests/PlayMode/TileBoardPlayModeTests.cs" Line="62" Column="43" />
+      <File FileName="Assets/Tests/PlayMode/TileBoardPlayModeTests.cs" Line="46" Column="32" />
+      <File FileName="Assets/Editor/TestRunner.cs" Line="12" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
