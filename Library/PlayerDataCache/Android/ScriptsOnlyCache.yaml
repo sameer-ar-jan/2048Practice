@@ -1,11 +1,5 @@
 ScriptsOnlyBuild:
   usedScripts:
-    AltTester.AltTesterUnitySDK.Editor.dll:
-    - AltTester.AltTesterUnitySDK.Editor.AltEditorConfiguration
-    - AltTester.AltTesterUnitySDK.Editor.AltTesterEditorWindow
-    SciptsAssembly.dll:
-    - BuildScript
-    - SceneManagerScript
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
@@ -15,23 +9,16 @@ ScriptsOnlyBuild:
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
     Unity.2D.Tilemap.Editor.dll:
-    - UnityEditor.Tilemaps.GridBrush
-    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
-    - UnityEditor.Tilemaps.TilemapEditorToolPreferences
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
-    Unity.2D.Tilemap.Extras.Editor.dll:
-    - UnityEditor.Tilemaps.GameObjectBrush
-    - UnityEditor.Tilemaps.GroupBrush
-    - UnityEditor.Tilemaps.LineBrush
-    - UnityEditor.Tilemaps.RandomBrush
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    - Packages.Rider.Editor.UnitTesting.SyncTestRunEventsHandler
     Unity.TextMeshPro:
     - TMPro.TMP_FontAsset
     - TMPro.TMP_Settings
@@ -44,9 +31,13 @@ ScriptsOnlyBuild:
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
+    - TestRunner.Callbacks.WindowResultUpdaterDataHolder
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.CommandLineTest.RunData
+    - UnityEditor.TestTools.TestRunner.RerunCallbackData
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    - UnityEditor.TestTools.TestRunner.TestRunnerWindow
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -86,10 +77,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.SpriteState
-  methodsToPreserve:
-  - assembly: SciptsAssembly
-    fullTypeName: SceneManagerScript
-    methodName: LoadScenes
+  methodsToPreserve: []
   sceneClasses:
     Assets/Scenes/MainMenu.unity:
     - Class: 1
@@ -111,31 +99,31 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16636}
+      Script: {instanceID: 16668}
     - Class: 114
-      Script: {instanceID: 16682}
+      Script: {instanceID: 17494}
     - Class: 114
-      Script: {instanceID: 17504}
+      Script: {instanceID: 18054}
     - Class: 114
-      Script: {instanceID: 18062}
+      Script: {instanceID: 18332}
     - Class: 114
-      Script: {instanceID: 18340}
+      Script: {instanceID: 18704}
     - Class: 114
-      Script: {instanceID: 18710}
+      Script: {instanceID: 20068}
     - Class: 114
-      Script: {instanceID: 20070}
+      Script: {instanceID: 20408}
     - Class: 114
-      Script: {instanceID: 20406}
+      Script: {instanceID: 21388}
     - Class: 114
-      Script: {instanceID: 21386}
+      Script: {instanceID: 22114}
     - Class: 114
-      Script: {instanceID: 22112}
-    - Class: 114
-      Script: {instanceID: 22334}
+      Script: {instanceID: 22336}
     - Class: 114
       Script: {instanceID: 22766}
     - Class: 114
-      Script: {instanceID: 25234}
+      Script: {instanceID: 23302}
+    - Class: 114
+      Script: {instanceID: 25246}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -153,18 +141,6 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
-  - hash:
-      serializedVersion: 2
-      Hash: 89e4e2e8eaed872597aba26ae7c844ee
-    assemblyName: AltTester.AltTesterUnitySDK
-    namespaceName: AltTester.AltTesterUnitySDK.UI
-    className: AltDialog
-  - hash:
-      serializedVersion: 2
-      Hash: 9e053fba83037d192aff425374055dd2
-    assemblyName: SciptsAssembly
-    namespaceName: 
-    className: BuildScript
   - hash:
       serializedVersion: 2
       Hash: dd9dda1dfd39e605c49e72003342ef5d
@@ -549,6 +525,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnPointerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 89e4e2e8eaed872597aba26ae7c844ee
+    assemblyName: AltTester.AltTesterUnitySDK
+    namespaceName: AltTester.AltTesterUnitySDK.UI
+    className: AltDialog
   - hash:
       serializedVersion: 2
       Hash: a1f04f96339251602f4fd83c27c42293
@@ -1191,12 +1173,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 09e7a357b8a5152a119c317be8c3df25
-    assemblyName: SciptsAssembly
-    namespaceName: 
-    className: SceneManagerScript
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainMenu.unity

@@ -363,7 +363,6 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Editor/BuildScript.cs"
-"Assets/Editor/TestRunner.cs"
 "Assets/SceneManagerScript.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Tile.cs"
